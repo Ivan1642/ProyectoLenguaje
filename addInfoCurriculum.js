@@ -73,7 +73,6 @@ document.getElementById('addExperienceBtn').addEventListener('click', function (
                     <button type="submit">Guardar</button>
                 </form>
             `;
-
             document.getElementById('formIdiomaContainer').innerHTML = idiomaForm;
             document.getElementById('formFormacionContainer').innerHTML = '';
             document.getElementById('formularioIdiomas').addEventListener('submit', function (eI) {
@@ -170,4 +169,14 @@ document.getElementById('addExperienceBtn').addEventListener('click', function (
             });
         });
     });
+});
+document.getElementById('guardarCV').addEventListener('click', function () {
+    // Enviar el formulario de experiencia
+    document.getElementById('experienceForm').submit();
+
+    // Enviar el formulario de idiomas
+    document.getElementById('formularioIdiomas').submit();
+
+    // Enviar el formulario de formación
+    document.getElementById('formularioFormacion').submit();
 });

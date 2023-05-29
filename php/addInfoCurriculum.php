@@ -4,22 +4,22 @@ $jobTitlePost = $_POST['jobTitle'];
 $companyPost = $_POST['company'];
 $startDatePost = $_POST['startDate'];
 $endDatePost = $_POST['endDate'];
-
+echo 1;
 // Idiomas
 $idiomaPost = $_POST['idioma'];
 $nivelPost = $_POST['nivel'];
 $entidadPost = $_POST['entidad'];
 $fechaExpPost = $_POST['fechaExp'];
-
+echo 2;
 // Formacion
 $titulPost = $_POST['titul'];
 $centroPost = $_POST['centro'];
 $anyoIniPost = $_POST['anyoIni'];
 $anyoFinPost = $_POST['anyoFin'];
-
+echo 3;
 // Obtener el nombre de usuario
 $usuario = $_POST['nombreUsuario'];
-
+echo 4;
 // Cargar el archivo XML existente
 $xmlFile = '../xml/curriculums.xml';
 $xml = new DOMDocument();
