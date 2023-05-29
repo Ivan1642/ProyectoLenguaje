@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="inicioSesion.css">
+	<title>Iniciar Sesión</title>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<h2 id="frase1" style="color: #F6F1F1;">Si aún no estás registrado, ¿A qué esperas?</h2>
+			<a href="index.html"><img src="imagenes/logo.png" width="200px" height="125px" id="logo"></a>
+			<form action="index.html">
+				<input type="submit" id="volver" value="Volver" style="color: #000000;">
+			</form>
+		</div>
+	</header>
+	<br>
+	<br>
+		<h1 id="titulo">Iniciar Sesión</h1>
+		<br>
+		<br>
+		<fieldset id="fieldset">
+			<br>
+			<br>
+			<form onsubmit="return validarFormulario()" action="php/inicioSesion.php" method="post">
+				<p id="usuarioL" style="color: #000000;">Usuario: <input type="text" id="usuario" name="usuario" placeholder="Escribe tu usuario"></p>
+				<br>
+				<br>
+				<p id="passwordL" style="color: #000000;">Contraseña: <input type="password" id="password" name="contrasenya" placeholder="Escriba su contraseña"></p>
+				<br>
+				<br>
+				<input type="submit" id="iniciarSesion" style="color: #000000;" value="Iniciar Sesión">
+			</form>	
+			<br>
+			<br>
+		</fieldset>
+		<br>
+		<br>
+		<p style="color: #000000;" id="frase2">Si no tiene una cuenta de Backpackers puede crearla <a href="registro.html" id="enlace"> aquí</a>.</p>
+<script src="validar.js"></script>
+</body>
+</html>

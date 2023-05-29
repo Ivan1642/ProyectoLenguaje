@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="registro.css">
+	<title>modificar_usuario</title>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<h2 id="frase2" style="color: #F6F1F1;">Modifique sus datos</h2>
+			<a href="index.html"><img src="imagenes/logo.png" width="200px" height="125px" id="logo"></a>
+			<form action="index_no_root.html">
+				<input type="submit" id="volver" value="Volver" style="color: #000000;">
+			</form>
+		</div>
+	</header>
+	<br>
+	<br>
+		<h1 id="titulo">Modificar datos de usuario</h1>
+		<br>
+		<br>
+		<fieldset id="fieldset">
+			<br>
+			<br>
+			<form action="../modifyUser.php" method="post">
+				  	<p id="nombreL" style="color: #000000;">Modificar Nombre: <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"></p>
+				<br>
+					<p id="apellidoL" style="color: #000000;">Modificar Nombre: <input type="text" id="apellido" name="apellidos" placeholder="Escriba sus apellidos"></p>
+				<br>
+					<p id="emailL" style="color: #000000;">Modificar Email: <input type="email" id="email" name="email" placeholder="Escriba su nuevo correo electrónico"></p>
+				<br>
+					<p id="usuarioL" style="color: #000000;">Modificar Usuario: <input type="text" id="usuario" name="usuario" placeholder="Escriba su nuevo nombre de usuario"></p>
+				<br>
+					<p id="passwordL" style="color: #000000;">Modificar Contraseña: <input type="password" id="password" name="contrasenya" placeholder="Escriba su nueva contraseña"></p>
+				<br>
+				<input type="submit" id="boton" value="Modificar">
+			</form>	
+			<br>
+			<br>
+		</fieldset>
+	</div>
+</body>
+</html>

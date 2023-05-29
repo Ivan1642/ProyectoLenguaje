@@ -1,0 +1,93 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: #F6F1F1;
+}
+
+#español{
+
+	width: 50%;
+	border: 2px solid #19a7ce;
+	border-radius: 10px;
+	background-color: #F6F1F1;
+	padding: 15px;
+	align-content: center;
+	background-image: url(imagenes/banderaespaña.png);
+	background-position: 95%;
+	background-size: 50px;
+	background-repeat: no-repeat;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+#english{
+
+	width: 50%;
+	border: 2px solid #19a7ce;
+	border-radius: 10px;
+	background-color: #F6F1F1;
+	padding: 15px;
+	align-content: center;
+	background-image: url(imagenes/banderainglesa.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: 95%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+#header{
+
+	position: relative;
+	width: 100%;
+	height: 125px;
+	background-attachment: fixed;
+	margin-top: 0;
+	padding: 0;
+	background-color: #19a7ce;
+	border: 2px black;
+}
+
+#logo{
+
+	margin: 0;
+	padding: 0;
+	background-color: #19a7ce;
+}
+
+#titulo{
+
+	color: #19a7ce;
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 300%;
+}
+
+#fieldset{
+
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 20px;
+	border-color: #19a7ce;
+}
+
+#volver{
+
+	position: absolute;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background-color: #F6F1F1;
+	align-content: center;
+	font-size: 150%;
+	width: 5%;
+	left: 93%;
+	top: 40%;
+	cursor: pointer;
+}

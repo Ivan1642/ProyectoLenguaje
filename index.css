@@ -1,0 +1,287 @@
+ #divButton{
+
+    position: relative;
+    top: 0px;
+    background-color: #F6F1F1;
+    height: 100px;
+    width: 100%;
+ }
+
+ #footer{
+
+    position: relative;
+    top: 168px;
+    height: 100px;
+    width: 100%;
+    background: rgb(246,241,241);
+    background: linear-gradient(90deg, rgba(246,241,241,1) 0%, rgba(25,167,206,1) 35%, rgba(20,108,148,1) 100%);
+ }
+
+ #logo{
+
+    position: absolute;
+    top: -35px;
+    width: 175px;
+    height: 175px;
+ }
+
+ #nombre{
+
+    position: absolute;
+    top: 12%;
+    left: 43%;
+ }
+
+ #gradient{
+
+    position: absolute;
+    top: 110px;
+    background: rgb(20,108,148);
+    background: linear-gradient(90deg, rgba(20,108,148,1) 0%, rgba(25,167,206,1) 50%, rgba(246,241,241,1) 100%);
+    height: 160px;
+    width: 100%;
+ }
+
+nav{
+
+    height: 100%;
+}
+
+nav ul{
+
+    list-style: none;
+    text-align: center;
+    line-height: 125px;
+}
+
+ul li{
+
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+li a{
+
+    text-decoration: none;
+    color: #f6f1f1;
+}
+
+ul li a{
+
+    padding: 10px 25px;
+    border: 3px solid #f6f1f1;
+}
+
+ul li a:hover{
+
+    color: #19a7ce;
+    background-color: #000000;
+}
+
+button{
+
+    position: relative;
+    background-color: #000000;
+    color: #f6f1f1;
+    height: 35px;
+    width: 175px;
+    border-radius: 10px;
+    border: 2px solid #19a7ce;
+}
+
+button#button1{
+
+    position: absolute;
+    left: 68%;
+    top: 35px;
+}
+
+button#button2{
+
+    position: absolute;
+    left: 79%;
+    top: 35px;
+}
+
+button#button3{
+
+    position: absolute;
+    left: 90%;
+    top: 35px;
+}
+
+button#button1 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+button#button2 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+button#button3 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+button.button .icono{
+
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: -40px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+}
+
+button.button svg{
+
+    color: #f6f1f1;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -12px;
+}
+
+button.button:hover{
+
+    background: #19a7ce;
+}
+
+button#button1:hover span{
+
+    left: 20px;
+}
+
+button#button2:hover span{
+
+    left: 20px;
+}
+
+button#button3:hover span{
+
+    left: 20px;
+}
+
+button.button:hover .icono{
+
+    left: calc(100% - 40px);
+    opacity: 1;
+}
+
+#busqueda{
+
+    position: relative;
+    top: 165px;
+    height: 500px;
+    width: 100%;
+    background-color: #f6f1f1;
+}
+
+.subrallado{
+
+    display: inline-block;
+    position: relative;
+}
+
+.subrallado:after{
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #19a7ce;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.subrallado:hover:after{
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#t1{
+
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+
+#t2{
+
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+
+#t3{
+
+    position: absolute;
+    left: 15%;
+    top: 55%;
+}
+
+#publi{
+
+    position: relative;
+    top: 167px;
+    height: 600px;
+    width: 100%;
+    background-color: #F6F1F1;
+}
+
+ #cocacola{
+
+     position: absolute;
+     top: 0px;
+     right: 10%;
+     height: 600px;
+     width: 37.5%;
+     border-radius: 15px;
+ }
+
+ #samsung{
+
+     position: absolute;
+     top: 0px;
+     left: 10%;
+     height: 600px;
+     width: 37.5%;
+     border-radius: 15px;
+ }
+
+ #chicaCurriculum{
+
+     position: absolute;
+     top: 100px;
+     right: 10%;
+ }
+
+ #textoExplicativo{
+
+     position: relative;
+     top: 200px;
+     left: 20%;
+     width: 60%;
+     height: 400px;
+ }
+
+ #tittle{
+
+     text-align: center;
+ }

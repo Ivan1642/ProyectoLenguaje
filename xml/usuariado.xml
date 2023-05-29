@@ -1,0 +1,9 @@
+<usuariado>
+	<cuenta id="0">
+		<nombre>Administración</nombre>
+		<apellidos>Verepass</apellidos>
+		<mail>admin@verepass.com</mail>
+		<user>root</user>
+		<pass>123456</pass>
+	</cuenta>
+</usuariado>

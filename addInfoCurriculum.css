@@ -1,0 +1,246 @@
+#divButton{
+
+    position: relative;
+    top: 0px;
+    background-color: #F6F1F1;
+    height: 100px;
+    width: 100%;
+}
+
+#logo{
+
+    position: absolute;
+    top: -35px;
+    width: 175px;
+    height: 175px;
+}
+
+#gradient{
+
+    position: absolute;
+    top: 110px;
+    background: rgb(246,241,241);
+    background: linear-gradient(90deg, rgba(246,241,241,1) 0%, rgba(25,167,206,1) 35%, rgba(20,108,148,1) 100%);
+    height: 160px;
+    width: 100%;
+}
+
+button{
+
+    position: relative;
+    background-color: #000000;
+    color: #f6f1f1;
+    height: 35px;
+    width: 175px;
+    border-radius: 10px;
+    border: 2px solid #19a7ce;
+}
+
+button#button1{
+
+    position: absolute;
+    left: 68%;
+    top: 35px;
+}
+
+button#button2{
+
+    position: absolute;
+    left: 79%;
+    top: 35px;
+}
+
+button#button3{
+
+    position: absolute;
+    left: 90%;
+    top: 35px;
+}
+
+button#button1 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+button#button2 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+button#button3 span{
+
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+button.button .icono{
+
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: -40px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+}
+
+button.button svg{
+
+    color: #f6f1f1;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -12px;
+}
+
+button.button:hover{
+
+    background: #19a7ce;
+}
+
+button#button1:hover span{
+
+    left: 20px;
+}
+
+button#button2:hover span{
+
+    left: 20px;
+}
+
+button#button3:hover span{
+
+    left: 20px;
+}
+
+button.button:hover .icono {
+
+    left: calc(100% - 40px);
+    opacity: 1;
+}
+
+nav{
+
+    height: 100%;
+}
+
+nav ul{
+
+    list-style: none;
+    text-align: center;
+    line-height: 125px;
+}
+
+ul li{
+
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+li a{
+
+    text-decoration: none;
+    color: #f6f1f1;
+}
+
+ul li a{
+
+    padding: 10px 25px;
+    border: 3px solid #f6f1f1;
+}
+
+ul li a:hover{
+
+    color: #19a7ce;
+    background-color: #000000;
+}
+
+.orderable-section {
+
+    border-top: black;
+    border-top-style: solid;
+    position: relative;
+    top: 200px;
+}
+
+form, input, label {
+
+    padding: 10px;
+    margin: 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+form{
+
+    position: relative;
+    top: 200px;
+}
+
+input, label{
+
+    position: relative;
+    top: 0px;
+}
+
+.experience div {
+
+    display: inline-block;
+}
+
+.formIdiomaContainer div {
+
+    display: inline-block;
+}
+
+.formFormacionContainer div {
+
+    display: inline-block;
+}
+
+.buttonForm {
+
+    position: absolute;
+    top: 300px;
+    background-color: #000000;
+    color: #f6f1f1;
+    height: 45px;
+    width: 175px;
+    border-radius: 10px;
+    border: 2px solid #19a7ce;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.experience {
+
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    top: 205px;
+}
+
+#formularioIdiomas{
+
+    position: relative;
+    top: 5px;
+}
+
+#formularioFormacion{
+
+    position: relative;
+    top: 5px;
+}
